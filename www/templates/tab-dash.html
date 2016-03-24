@@ -1,0 +1,10 @@
+<ion-view view-title="AbuNur Domla">
+  <ion-content>
+    <ion-list ng-controller="DashCtrl">
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in musics1" type="item-text-wrap" href="#/tab/dash/{{dash.id}}">
+        <p>{{chat.album}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
